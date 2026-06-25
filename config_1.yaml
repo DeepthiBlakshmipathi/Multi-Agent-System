@@ -1,0 +1,9 @@
+paths:
+  docs: data/mini_documents.jsonl
+  dev: data/mini_dev.json
+  output: artifacts/submission_js.csv
+
+params:
+  top_k: 200
+  supports: 100
+  seed: 42

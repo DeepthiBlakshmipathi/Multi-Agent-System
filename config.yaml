@@ -1,0 +1,14 @@
+paths:
+  dev: data/mini_dev.json
+  documents_path: data/mini_documents.jsonl
+  embedding_path: data/id_to_embedding.npz
+  sparse_index_path: index/sparse_index
+  dense_index_path: index/dense_index
+  output: artifacts/submission_dev.csv
+
+params:
+  top_k: 200
+  supports: 100
+  temperature: 1.0
+  seed: 42
+  alpha: 0.7

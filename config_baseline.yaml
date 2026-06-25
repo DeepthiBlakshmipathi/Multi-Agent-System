@@ -1,0 +1,13 @@
+paths:
+  docs: data/documents.jsonl
+  dev: data/mini_documents.jsonl
+  dev: data/mini_dev.json
+  output: artifacts/submission_baseline.csv
+  log_path: artifacts/routing_log_baseline.txt
+
+params:
+  seed: 42
+  top_k: 10
+  supports: 5
+  use_query_expansion: true
+  routing_threshold: 0.5

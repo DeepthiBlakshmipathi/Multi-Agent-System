@@ -1,0 +1,9 @@
+paths:
+  documents_path: "data/mini_documents.jsonl"
+  questions_path: "data/mini_dev.json"
+  output_path: "artifacts/mini_submission.csv"
+
+params:
+  top_k: 200
+  seed: 42
+  temperature: 1.0
