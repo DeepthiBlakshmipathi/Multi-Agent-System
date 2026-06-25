@@ -1,0 +1,3 @@
+experiment,variant,intrinsic_metric,js_score
+supervisor,disabled,0.95,0.7813
+supervisor,enabled,0.97,0.9538
